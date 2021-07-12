@@ -21,4 +21,5 @@
         + [openrouteservice-py](https://github.com/GIScience/openrouteservice-py)
     - Comment: 
         No data on traffic, but more on geographical distances/optimizations and maps
-    
+3. TOMTOM:
+   - IN PROGRESS!!!    
