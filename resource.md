@@ -10,6 +10,9 @@
         + [Traffic Tiles Info](https://developer.here.com/documentation/traffic/dev_guide/topics/tiles.html)
     - Third-party Interface:
         + [HerePy](https://herepy.abdullahselek.com/)
+        + [Destination Weather](https://developer.here.com/documentation/examples/rest/auto_weather): Severe weather alert, weather forcast in 7 days, etc. works for **both Canada and China**
+        + [Chinese Data](https://developer.here.com/documentation/routing-waypoints/dev_guide/topics/china-japan.html):
+            Requires additional licensing and certifications to access (Chinese restrictions)
     - Comment:
         Traffic data not process-ready
 2. Openroute service:
@@ -29,3 +32,17 @@
         + Examples: playgrounds on API pages
     - Comment:
         Very similar to Openroute, but with better visualization, and worse pricing plan, not sure about free quota and data format yet, seems better format that Openroute
+
+# Weather APIs
+## Listing:
+1. Government of **Canada**:
+    - [Official Web](https://weather.gc.ca/)
+    - Third Part Extractions:
+        + [Forecast Feeds](https://github.com/jschnurr/ec-weather)
+        + [env_canada](https://github.com/michaeldavie/env_canada)
+    - [Weather Radar](https://weather.gc.ca/map_e.html?layers=radar&center=40.49730050%2C-94.79584784)
+    - [Air Quality Health Index (AQHI)](https://weather.gc.ca/airquality/pages/index_e.html)
+2. OpenWeatherAPIs (any locations):
+    - [Project Source](https://github.com/CICCIOSGAMINO/openweather-apis)
+    - [Demo](https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=53.2258&lon=130.0781&zoom=3)
+    - [API site](https://openweathermap.org/api)
